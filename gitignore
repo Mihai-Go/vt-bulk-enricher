@@ -1,0 +1,22 @@
+# IOC input files (may contain sensitive data)
+iocs.txt
+*.txt
+
+# Report outputs
+*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Environment variables / secrets
+.env
+*.env
+
+# IDE files
+.vscode/
+.idea/
