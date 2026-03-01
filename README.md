@@ -1,8 +1,8 @@
-# VirusTotal Bulk Enricher 🔍
+# VirusTotal Bulk Enricher 
 
 A command-line threat hunting tool that automates bulk IOC lookups against the VirusTotal API and exports a triage report to CSV.
 
-Instead of manually checking hundreds of IPs, hashes, or domains one by one on the VirusTotal website — you feed this script a list and get back a clean, sortable report in minutes.
+Instead of manually checking hundreds of IPs, hashes, or domains one by one on the VirusTotal website - you feed this script a list and get back a clean, sortable report in minutes.
 
 ---
 
@@ -147,7 +147,7 @@ If you have a premium API key, set `REQUEST_DELAY_SECONDS = 0` at the top of the
 
 ---
 
-## ⚠️ Important: Protect your API key
+##  Important: Protect your API key
 
 Never hardcode your API key into the script or commit it to GitHub. Always pass it via the `--apikey` argument, or better yet use an environment variable:
 
